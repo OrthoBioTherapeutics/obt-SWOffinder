@@ -1,0 +1,706 @@
+﻿gene,tumour_cosmic100_2024
+CXCR4,WM
+DROSHA,"Wilms tumour, NSCLC, bladder carcinoma"
+WT1,"Wilms tumour, desmoplastic small round cell tumour"
+AMER1,Wilms tumour
+DGCR8,Wilms tumour
+SIX1,Wilms tumour
+SIX2,Wilms tumour
+EIF1AX,"uveal melanoma, thyroid cancer (PDTC and ATC), low grade serous ovarian cancer"
+GNA11,"uveal melanoma, primary central nervous system melanocytic neoplasms"
+GNAQ,"uveal melanoma, primary central nervous system melanocytic neoplasms"
+BAP1,"uveal melanoma, breast, NSCLC, RCC"
+CYSLTR2,uveal melanoma
+CHD4,uterine serous carcinoma
+MED12,"uterine leiomyoma, fibroadenoma, phyllodes tumour"
+COX6C,uterine leiomyoma
+BAZ1A,"uterine carcinosarcoma, colon cancer"
+TSHR,"toxic thyroid adenoma, thyroid gland follicular carcinoma"
+FAS,"TGCT, nasal NK/T lymphoma, skin squamous cell carcinoma-burn scar related"
+ATM,T-PLL
+TCL1A,T-CLL
+CD28,T-cell lymphoma
+VAV1,T-cell lymphoma
+TRD,T-cell leukaemia
+STAT3,T-cell large granular lymphocytic leukaemia
+LMO1,"T-ALL, neuroblastoma"
+NOTCH1,"T-ALL, breast, bladder, skin SCC, lung SCC, head and neck SCC"
+PICALM,"T-ALL, AML"
+BCL11B,T-ALL
+CCNC,T-ALL
+CNOT3,T-ALL
+DNM2,T-ALL
+LCK,T-ALL
+LMO2,T-ALL
+LYL1,T-ALL
+OLIG2,T-ALL
+PTPRC,T-ALL
+RAP1GDS1,T-ALL
+RPL10,T-ALL
+RPL5,T-ALL
+SET,T-ALL
+STIL,T-ALL
+TAL2,T-ALL
+TLX1,T-ALL
+TLX3,T-ALL
+TRA,T-ALL
+TRB,T-ALL
+MTCP1,T cell prolymphocytic leukaemia
+SS18,synovial sarcoma
+SS18L1,synovial sarcoma
+SSX1,synovial sarcoma
+SSX2,synovial sarcoma
+SSX4,synovial sarcoma
+DDR2,"squamous cell carcinoma, NSCLC"
+TBL1XR1,"splenic marginal zone lymphoma, primary central nervous system lymphoma, colorectal carcinoma, gallbladder carcinoma"
+PPFIBP1,"Spitzoid tumour, inflammatory myofibroblastic tumour"
+CEP89,Spitzoid tumour
+CLIP1,Spitzoid tumour
+HLA-A,Spitzoid tumour
+LMNA,Spitzoid tumour
+LSM14A,Spitzoid tumour
+MYO5A,Spitzoid tumour
+PWWP2A,Spitzoid tumour
+SHTN1,Spitzoid tumour
+ZCCHC8,Spitzoid tumour
+NAB2,"solitary fibrous tumour, meningeal haemangiopericytoma"
+STAT6,"solitary fibrous tumour, meningeal haemangiopericytoma"
+FLT4,soft tissue sarcoma
+SPEN,"SMZL, adenoid cystic carcinoma, DLBCL"
+IKBKB,SMZL
+MYCL,small cell lung carcinoma
+PTCH1,"skin basal cell, medulloblastoma"
+LATS1,skin basal cell carcinoma
+SMO,skin basal cell
+DICER1,"sex cord-stromal tumour, TGCT, embryonal rhabdomyosarcoma, pleuropulmonary blastoma, pituitary blastoma, Wilms tumour, thyroid cancer, other tumour types"
+CCNE1,serous ovarian
+CDK12,serous ovarian
+FAM135B,SCLC
+PIK3CB,"SCC, NSCLC"
+TNC,"SCC, melanoma"
+FAT3,"SCC, colon adenocarcinoma, gastric adenocarcinoma"
+KNSTRN,SCC
+MDM2,"sarcoma, glioma, colorectal, other tumour types"
+JUN,sarcoma
+POU5F1,sarcoma
+CRTC1,salivary gland mucoepidermoid
+CRTC3,salivary gland mucoepidermoid
+MAML2,salivary gland mucoepidermoid
+PLAG1,"salivary adenoma, lipoblastoma"
+CHCHD7,salivary adenoma
+LIFR,salivary adenoma
+TCEA1,salivary adenoma
+FGFR4,rhabdomyosarcoma
+RB1,"retinoblastoma, sarcoma, breast, small cell lung carcinoma"
+BCOR,"retinoblastoma, AML, APL (translocation)"
+VHL,"renal, haemangioma, pheochromocytoma"
+PTK6,"renal, gastric, head and neck, ovarian, others"
+KDM6A,"renal cell carcinoma, bladder carcinoma, oesophageal SCC, MM, medulloblastoma, T-ALL, other tumour types"
+TSC1,"renal cell carcinoma, bladder carcinoma"
+MALAT1,"renal cell carcinoma (childhood epithelioid), lung"
+TFEB,renal cell carcinoma (childhood epithelioid)
+NT5C2,relapse ALL
+TSC2,"pulmonary lymphangioleiomyomatosis (LAM), renal angiomyolipoma, HNSCC"
+KLF6,"prostate, glioma"
+SPOP,"prostate, endometrial"
+CD209,prostate carcinoma
+ACSL3,prostate
+AR,prostate
+CANT1,prostate
+DDX5,prostate
+ELK4,prostate
+ETV5,prostate
+HERPUD1,prostate
+HMGN2P46,prostate
+HNRNPA2B1,prostate
+KLK2,prostate
+NCOR2,prostate
+NDRG1,prostate
+SLC45A3,prostate
+TMPRSS2,prostate
+CTNND2,"prostae adenocarcinoma, GIST"
+TFPT,pre-B ALL
+PBX1,"pre B-ALL, myoepithelioma"
+TCF3,pre B-ALL
+RALGDS,"PMBL, Hodgkin lymphoma,"
+C15orf65,"PMBL, Hodgkin lymphoma"
+CD274,"PMBL, Hodgkin lymphoma"
+CIITA,"PMBL, Hodgkin lymphoma"
+PDCD1LG2,"PMBL, Hodgkin lymphoma"
+RMI2,"PMBL, Hodgkin lymphoma"
+SNX29,"PMBL, Hodgkin lymphoma"
+FHIT,pleomorphic salivary gland adenoma
+WIF1,pleomorphic salivary gland adenoma
+GNAS,"pituitary adenoma, pancreatic intraductal papillary mucinous neoplasm, fibrous dysplasia"
+RAF1,"pilocytic astrocytoma, prostate"
+FAM131B,pilocytic astrocytoma
+KIAA1549,pilocytic astrocytoma
+SRGAP3,pilocytic astrocytoma
+FLNA,phyllodes tumour of the breast
+MAX,"pheochromocytoma, endometrioid carcinoma, colon carcinoma"
+ITK,peripheral T-cell lymphoma
+MEN1,"parathyroid tumours, pancreatic neuroendocrine tumour"
+CDC73,parathyroid adenoma
+EPAS1,"paraganglioma, pheochromocytoma, central nervous system hemangioblastomas"
+ERC1,"papillary thyroid, Spitzoid tumour"
+GOLGA5,"papillary thyroid, Spitzoid tumour"
+NTRK1,"papillary thyroid, Spitzoid tumour"
+TPR,"papillary thyroid, NSCLC"
+CCDC6,"papillary thyroid, CML, NSCLC"
+PCM1,"papillary thyroid, CML, MPN"
+TPM3,"papillary thyroid, ALCL, NSCLC, Spitzoid tumour"
+TFG,"papillary thyroid, ALCL, NSCLC, extraskeletal myxoid chondrosarcoma"
+AKAP9,papillary thyroid
+HOOK3,papillary thyroid
+KTN1,papillary thyroid
+NCOA4,papillary thyroid
+PRKAR1A,papillary thyroid
+TRIM27,papillary thyroid
+TRIM33,papillary thyroid
+MET,"papillary renal, head-neck squamous cell"
+TFE3,"papillary renal, alveolar soft part sarcoma, renal"
+NONO,papillary renal
+PRCC,papillary renal
+SFPQ,papillary renal
+KRAS,"pancreatic, colorectal, lung, thyroid, AML, other tumour types"
+MAP2K4,"pancreatic, breast, colorectal"
+ATRX,"pancreatic neuroendocrine tumours, paediatric GBM"
+DAXX,"pancreatic neuroendocrine tumour, paediatric glioblastoma"
+ACVR1B,pancreatic cancer
+ELF3,pancreatic cancer
+SND1,pancreas acinar carcinoma
+TNRC18,"paediatric AML, promyelocytic leukaemia"
+AKT2,"ovarian, pancreatic"
+CSMD3,"ovarian cancer, oral SCC, lung cancer"
+CASP3,ovarian cancer
+BRCA1,ovarian
+FAT1,"oral squamous cell, chemorefractory CLL, head and neck, pancreatic acinar cell carcinoma"
+POLQ,oral SCC
+CIC,"oligodendroglioma, soft tissue sarcoma"
+FUBP1,oligodendroglioma
+KIF5B,"NSCLC, Spitzoid tumour"
+SMARCA4,"NSCLC, SCCOHT"
+STK11,"NSCLC, pancreatic"
+SOX2,"NSCLC, oesophageal squamous carcinoma"
+MAP2K1,"NSCLC, melanoma, colorectal"
+MAP2K2,"NSCLC, melanoma"
+NFE2L2,"NSCLC, HNSCC"
+KEAP1,"NSCLC, breast carcinoma"
+KDR,"NSCLC, angiosarcoma"
+CD74,NSCLC
+EML4,NSCLC
+EZR,NSCLC
+LRIG3,NSCLC
+NKX2-1,NSCLC
+NRG1,NSCLC
+SDC4,NSCLC
+SLC34A2,NSCLC
+SGK1,Nodular lymphocyte predominant Hodgkin lymphoma
+CCND2,"NHL,CLL"
+BCL2,"NHL, CLL"
+BCL6,"NHL, CLL"
+NPM1,"NHL, APL, AML"
+PAX5,"NHL, ALL, B-ALL"
+EIF4A2,NHL
+HIST1H4I,NHL
+HSP90AA1,NHL
+HSP90AB1,NHL
+IL21R,NHL
+LCP1,NHL
+NACA,NHL
+PIM1,NHL
+POU2AF1,NHL
+RHOH,NHL
+TFRC,NHL
+NF1,"neurofibroma, glioma"
+MYCN,"neuroblastoma, Wilms tumour"
+FOXR1,neuroblastoma
+PHOX2B,neuroblastoma
+TEC,myxoid chondrosarcoma
+CREB3L1,myxofibrosarcoma
+SF3B1,myelodysplastic syndrome
+SOX21,multiple myeloma
+SH2B3,"MPN, sAML, erythrocytosis, B-ALL"
+FGFR1,"MPN, NHL, salivary adenoma"
+CNTRL,"MPN, NHL"
+FGFR1OP,"MPN, NHL"
+ZMYM2,"MPN, NHL"
+CALR,"MPN, MDS"
+PDGFRB,"MPN, AML, CMML, CML"
+MPL,MPN
+NIN,MPN
+PDE4DIP,MPN
+IGH,"MM, Burkitt lymphoma, NHL, CLL, B-ALL, MALT, MLCLS"
+CCND3,MM
+IRF4,MM
+MAF,MM
+MAFB,MM
+NSD2,MM
+TENT5C,MM
+PAFAH1B2,MLCLS
+HMGA1,"microfollicular thyroid adenoma, various benign mesenchymal tumours"
+HEY1,mesenchymal chondrosarcoma
+NF2,"meningioma, acoustic neuroma, renal"
+KLF4,meningioma
+POLR2A,meningioma
+TRAF7,meningioma
+S100A7,"melanoma, T-cell lymphoma"
+BCL2L12,"melanoma, SCC"
+BCLAF1,"melanoma, SCC"
+PREX2,"melanoma, pancreatic ductal adenocarcinoma"
+GRM3,"melanoma, oral SCC"
+CDKN2A,"melanoma, multiple other tumour types"
+NRAS,"melanoma, MM, AML, thyroid"
+CHD2,"melanoma, large intestine, CLL, monoclonal B lymphocytosis"
+TERT,"melanoma, glioblastoma, hepatocellular carcinoma, bladder, skin basal cell, skin squamous cell, mesothelioma, medulloblastoma, other tumour types"
+ERBB4,"melanoma, gastric, NSCLC"
+BIRC6,"melanoma, gastric adenocarcinoma, lung adenocarcinoma"
+BRAF,"melanoma, colorectal, papillary thyroid, borderline ovarian, NSCLC, cholangiocarcinoma, pilocytic astrocytoma, Spitzoid tumour, pancreas acinar carcinoma, melanocytic nevus, prostate, gastric"
+GRIN2A,"melanoma, colorectal carcinoma, gastric carcinoma, lung carcinoma"
+PRPF40B,"melanoma, colon carcinoma, MDS"
+FAM47C,"melanoma, clear cell sarcoma of soft parts, SCLC"
+ASXL2,"melanoma, CCRCC, AML"
+RAC1,"melanoma, carcinoma"
+A1CF,melanoma
+BMP5,melanoma
+CDH10,melanoma
+CDH17,melanoma
+CYP2C8,melanoma
+ISX,melanoma
+MITF,melanoma
+PPP6C,melanoma
+RGS7,melanoma
+SKI,melanoma
+TRRAP,melanoma
+GATA1,megakaryoblastic leukaemia of Downs syndrome
+KMT2D,"medulloblastoma, renal"
+KMT2C,medulloblastoma
+SUFU,medulloblastoma
+RET,"medullary thyroid, papillary thyroid, pheochromocytoma, NSCLC, Spitzoid tumour"
+SYK,"MDS, peripheral T-cell lymphoma"
+ASXL1,"MDS, CMML"
+CSF1R,"MDS, CML, AML, hemangioblastoma, CCRCC"
+SRSF2,"MDS, CLL"
+ZRSR2,"MDS, CLL"
+PRDM16,"MDS, AML"
+MDS2,MDS
+TET2,MDS
+NOTCH2,"marginal zone lymphoma, DLBCL, bladder"
+TNFAIP3,"marginal zone B-cell lymphomas, Hodgkin lymphoma, PMBL"
+UBR5,"mantle cell lymphoma, gastric, colorectal"
+BCL10,MALT
+MALT1,MALT
+SMARCB1,malignant rhabdoid
+EED,"malignant peripheral nerve sheath tumours, MDS and related, lung adenocarcinoma"
+LATS2,malignant mesothelioma
+SETDB1,malignant mesothelioma
+ATF1,"malignant melanoma of soft parts, angiomatoid fibrous histiocytoma"
+FAT4,"lymphoma, pancreatic, head and neck, melanoma, hepatocellular carcinoma"
+RAD17,"lymphoma, colon cancer"
+ARHGEF10L,lymphoma
+IGF2BP2,lymphoma
+TAL1,lymphoblastic leukaemia/biphasic
+PTPN13,"lung, NSCLC, gastric, peritoneal carcinomatosis"
+PTPRD,"lung cancer, kidney cancer, HNSCC, glioblastoma"
+EPHA3,"lung cancer, CRC, melanoma"
+LEPROTL1,"lung cancer, colon cancer"
+USP44,"lung cancer, colon cancer"
+ZNF479,"lung cancer, bladder carcinoma, prostate carcinoma"
+CPEB3,lung cancer
+CUL3,lung cancer
+MB21D2,lung cancer
+N4BP2,lung cancer
+RFWD3,lung cancer
+SUB1,lung cancer
+GPC5,lung adenocarcinoma
+RBM10,lung adenocarcinoma
+MAP3K1,luminal A breast
+CDH1,"lobular breast, gastric"
+MACC1,"liver, CRC"
+FUS,"liposarcoma, AML, Ewing sarcoma, angiomatoid fibrous histiocytoma, fibromyxoid sarcoma"
+DDIT3,liposarcoma
+RAD51B,"lipoma, uterine leiomyoma"
+LPP,"lipoma, leukaemia"
+HMGA2,"lipoma, leiomyoma, pleomorphic salivary gland adenoma"
+ACKR3,lipoma
+EBF1,lipoma
+LHFPL6,lipoma
+COL3A1,lipoblastoma
+BRD3,lethal midline carcinoma of young people
+BRD4,lethal midline carcinoma of young people
+NUTM1,lethal midline carcinoma
+ALDH2,leiomyoma
+CCNB1IP1,leiomyoma
+ACVR2A,"large intestine carcinoma, stomach carcinoma, pancreatic carcinoma, biliary tract, oesophagus"
+NBEA,"large intestine carcinoma, multiple myeloma"
+CTNND1,large intestine carcinoma
+ITGAV,large intestine carcinoma
+STAT5B,"large granular lymphocytic leukaemia, skin basal cell, APL"
+PTPN11,"JMML, AML, MDS"
+SPECC1,JMML
+RRAS2,intracranial germ cell tumour
+IL2,intestinal T-cell lymphoma
+TNFRSF17,intestinal T-cell lymphoma
+HRAS,"infrequent sarcomas, rare other tumour types"
+DCTN1,"inflammatory myofibroblastic tumour, Spitzoid tumour"
+RANBP2,inflammatory myofibroblastic tumour
+FIP1L1,idiopathic hypereosinophilic syndrome
+SOCS1,"Hodgkin lymphoma, PMBL"
+REL,Hodgkin lymphoma
+FES,"HNSCC, ovarian carcinoma"
+MUC16,"HNSCC, melanoma"
+TP63,"HNSCC, DLBCL"
+SIRPA,"HNSCC, colorectal cancer, Lung SCC"
+PTPRT,"HNSCC, colorectal cancer, gastric cancer, lung cancer, melanoma"
+PABPC1,"HNSCC, biliary tract carcinoma"
+MUC4,HNSCC
+CASP8,"hepatocellular, oral squamous cell, breast"
+ARID2,hepatocellular carcinoma
+IL6ST,hepatocellular carcinoma
+HNF1A,"hepatic adenoma, hepatocellular"
+TGFBR2,"head and neck, colorectal"
+FOXL2,granulosa-cell tumour of the ovary
+IRS4,"glioma, rhabdomyosarcoma, melanoma, breast cancer, T-ALL"
+PTEN,"glioma, prostate, endometrial"
+PPM1D,"glioma, ovarian cancer, breast cancer"
+EGFR,"glioma, NSCLC"
+CDKN2C,"glioma, MM"
+CNTNAP2,"glioma, melanoma"
+PRDM2,"glioma, colon adenocarcinoma, gastric carcinoma, ovarian carcinoma, HNSCC"
+CASP9,glioma
+FKBP9,glioma
+H3F3A,glioma
+HIST1H3B,glioma
+MGMT,glioma
+RAP1B,glioma
+PIK3R1,"glioblastoma, ovarian, colorectal"
+ROS1,"glioblastoma, NSCLC, Spitzoid tumour, cholangiocarcinoma, borderline ovarian"
+GOPC,"glioblastoma, cholangiocarcinoma, borderline ovarian"
+MDM4,"glioblastoma, bladder, retinoblastoma"
+IDH1,glioblastoma
+IDH2,glioblastoma
+LZTR1,glioblastoma
+SDHA,"GIST, paraganglioma"
+PDGFRA,"GIST, idiopathic hypereosinophilic syndrome, paediatric glioblastoma"
+KIT,"GIST, AML, TGCT, mastocytosis, mucosal melanoma"
+AKT3,GBM
+ZNF429,GBM
+FGFR2,"gastric, NSCLC, endometrial"
+CNBD1,"gastric cancer, colon cancer"
+CTNNA2,gastric cancer
+MUC6,gastric cancer
+WNK2,gastric cancer
+ZNF331,follicular thyroid adenoma
+PAX8,follicular thyroid
+PPARG,follicular thyroid
+SRSF3,follicular lymphoma
+TNFRSF14,follicular lymphoma
+CREB3L2,fibromyxoid sarcoma
+PRKACA,"fibrolamellar hepatocellular carcinoma, cortisol secreting adrenal adenoma"
+DNAJB1,fibrolamellar hepatocellular carcinoma
+TAF15,"extraskeletal myxoid chondrosarcoma, ALL"
+NR4A3,extraskeletal myxoid chondrosarcoma
+TCF12,extraskeletal myxoid chondrosarcoma
+ERG,"Ewing sarcoma, prostate, AML"
+ETV4,"Ewing sarcoma, prostate carcinoma"
+ETV1,"Ewing sarcoma, prostate"
+EWSR1,"Ewing sarcoma, desmoplastic small round cell tumour , ALL, clear cell sarcoma, sarcoma, myoepithelioma, mesothelioma"
+FEV,Ewing sarcoma
+FLI1,Ewing sarcoma
+NFATC2,Ewing sarcoma
+PATZ1,Ewing sarcoma
+ECT2L,ETP ALL
+PHF6,ETP ALL
+CAMTA1,epithelioid haemangioendothelioma
+WWTR1,epithelioid haemangioendothelioma
+PIK3R3,"epithelial ovarian cancer, glioblastoma, pancreatic ductal adenocarcinoma"
+NR2F2,"endometrioid carcinoma, soft-tissue sarcoma"
+HIF1A,"endometrioid carcinoma, glioblastoma, colorectal, renal, lung, pancreatic"
+RGPD3,endometrioid adenocarcinoma
+CUX1,"endometrial, melanoma, colorectal, AML, MDS, other tumour types"
+ZFHX3,"endometrial, gastric, prostate"
+ATR,"endometrial, gastric, epithelial ovarian, myeloma"
+CTCF,"endometrial, breast, head and neck cancer"
+JAZF1,endometrial stromal tumour
+SUZ12,endometrial stromal tumour
+NUTM2B,endometrial stromal sarcoma
+NUTM2D,endometrial stromal sarcoma
+YWHAE,endometrial stromal sarcoma
+MTOR,"endometrial carcinoma, head and neck, clear cell renal cell carcinoma, anaplastic thyroid cancer, urothelial cell carcinoma, central nervous system tumours, testicular germ cell tumours and other tumour types"
+ARHGAP35,endometrial carcinoma
+GSK3B,endometrial cancer
+MYOD1,embryonal rhabdomyosarcoma
+CD79A,"DLBCL, WM"
+CD79B,"DLBCL, WM"
+B2M,"DLBCL, melanoma, colorectal adenocarcinoma"
+LYN,"DLBCL, B-ALL, MPN"
+BTG2,DLBCL
+CARD11,DLBCL
+EZH2,DLBCL
+FBXO11,DLBCL
+PRDM1,DLBCL
+PTPN6,DLBCL
+TMSB4X,DLBCL
+ACVR1,DIPG
+RHOA,"diffuse gastric, T cell lymphomas, paediatric Burkitt lymphoma"
+COL1A1,"DFSP, aneurysmal bone cyst"
+PDGFB,DFSP
+CYLD,cylindroma
+PRKD1,"cribriform adenocarcinoma of the minor salivary glands, polymorphous adenocarcinoma of the minor salivary glands"
+GLI1,"CRC, oesophagus cancer"
+DCC,"CRC, melanoma, SCC"
+EPHA7,"CRC, melanoma"
+LARP4B,"CRC, glioma"
+SETD1B,"CRC, endometrium"
+ZMYM3,"CRC, breast cancer"
+DCAF12L2,CRC
+PCBP1,CRC
+POLD1,CRC
+POLG,CRC
+USP8,corticotroph adenoma
+NTRK3,"congenital fibrosarcoma, secretory breast"
+ETV6,"congenital fibrosarcoma, multiple different leukaemia and lymphoma tumour types including ALL, secretory breast, MDS"
+SMAD4,"colorectal, pancreatic, small intestine"
+APC,"colorectal, pancreatic, desmoid, hepatoblastoma, glioma, other CNS"
+CTNNB1,"colorectal, ovarian,  hepatoblastoma, pleomorphic salivary gland adenoma, other tumour types"
+PIK3CA,"colorectal, gastric, glioblastoma, breast"
+FBXW7,"colorectal, endometrial, T-ALL"
+AXIN1,"colorectal, endometrial, prostate, hepatocellular carcinoma, hepatoblastoma, sporadic medulloblastoma"
+MLH1,"colorectal, endometrial, ovarian, CNS tumours"
+MSH2,"colorectal, endometrial, ovarian"
+EP300,"colorectal, breast, pancreatic, AML, ALL, DLBCL"
+AXIN2,"colorectal carcinoma, stomach carcinoma, hepatocellular carcinoma"
+SMAD3,"colorectal carcinoma, oral squamous cell carcinoma"
+SMAD2,"colorectal carcinoma, hepatocellular carcinoma"
+POLE,"colorectal carcinoma, endometrioid carcinoma, stomach carcinoma, skin cancer"
+SFRP4,"colorectal cancer, melanoma, SCC, gastric cancer, oesophageal SCC"
+NTRK2,"colorectal cancer, ganglioglioma, glioma, HNSCC, lung adenocarcinoma"
+BCL9L,"colorectal cancer, endometrial carcinoma, gastric cancer"
+SRC,"colorectal cancer, endometrial carcinoma"
+SALL4,"colorectal cancer, breast cancer, prostate cancer, glioblastoma, melanoma"
+STAG1,"colorectal cancer, AML"
+ZNRF3,"colorectal cancer, adrenocortical carcinoma, gastric cancer"
+BAX,colorectal cancer
+ROBO2,"colorectal adenocarcinoma, melanoma"
+EIF3E,colorectal
+MSH6,colorectal
+PTPRK,colorectal
+RSPO2,colorectal
+RSPO3,colorectal
+TCF7L2,colorectal
+VTI1A,colorectal
+WDCP,colorectal
+ERBB3,"colon, gastric, head and neck, bladder, skin"
+USP9X,colon carcinoma
+ARHGAP5,"colon cancer, glioma"
+ARHGEF10,colon cancer
+HIP1,"CMML, NSCLC"
+RABEP1,CMML
+ABL1,"CML, ALL, T-ALL"
+BCR,"CML, ALL, AML"
+HOXA11,CML
+MSI2,CML
+MAPK1,"CLL, ovarian mixed germ cell tumour, cervical carcinoma"
+LRP1B,"CLL, ovarian cancer, oesophageal squamous cell carcinoma, urothelial cancer"
+DDX3X,"CLL, medulloblastoma"
+U2AF1,"CLL, MDS"
+BTK,"CLL, mantle cell lymphoma, WM"
+BIRC3,"CLL, MALT, MCL, MM"
+NFKBIE,"CLL, desmoplastic melanoma"
+CCND1,"CLL, B-ALL, breast"
+BCL3,CLL
+POT1,CLL
+XPO1,CLL
+CREB1,"clear cell sarcoma, angiomatoid fibrous histiocytoma"
+PBRM1,"clear cell renal carcinoma, breast"
+KDM5C,clear cell renal carcinoma
+SETD2,clear cell renal carcinoma
+ARID1A,"clear cell ovarian carcinoma, RCC, breast"
+PPP2R1A,clear cell ovarian carcinoma
+COL2A1,"chondrosarcoma, enchondroma"
+H3F3B,chondroblastoma
+RNF43,"cholangiocarcinoma, ovary, pancreas"
+ARAF,"cholangiocarcinoma, lung adenocarcinoma, Langerhans cell histiocytosis"
+CBLC,"cervical SCC, malignant melanoma"
+ZEB1,"CCRCC, melanoma"
+ANK1,CCRCC
+KAT7,CCRCC
+IGK,"Burkitt lymphoma, B-NHL"
+MYC,"Burkitt lymphoma, amplified in other cancers, B-CLL"
+ID3,Burkitt lymphoma
+IGL,Burkitt lymphoma
+CDKN1B,"breast, small intestine neuroendocrine tumours"
+FOXA1,"breast, prostate"
+BRCA2,"breast, ovarian, pancreatic"
+ERBB2,"breast, ovarian, other tumour types, NSCLC, gastric"
+TBX3,"breast, large intestine, skin"
+ARID1B,"breast, hepatocellular carcinoma, clear cell ovarian carcinoma"
+AKT1,"breast, colorectal, ovarian, NSCLC"
+TP53,"breast, colorectal, lung, sarcoma, adrenocortical, glioma, Spitzoid tumour, multiple other tumour types"
+PLEC,breast carcinoma
+GOLPH3,"breast cancer, NSCLC, ovarian cancer"
+HGF,"breast cancer, lung cancer, multiple myeloma"
+ASPM,"breast cancer, lung cancer, endometrial cancer, melanoma"
+FADD,"breast cancer, HNSCC"
+FBLN2,"breast cancer, colorectal adenocarcinoma"
+BARD1,breast cancer
+RAD50,breast cancer
+ESR1,breast
+GATA3,breast
+MAP3K13,breast
+NCOR1,breast
+SMARCD1,breast
+BCL7A,BNHL
+FGFR3,"bladder, MM, T-cell lymphoma"
+STAG2,"bladder carcinoma, glioblastoma, melanoma, Ewing's sarcoma, myeloid neoplasms"
+RXRA,bladder carcinoma
+CDKN1A,bladder cancer
+CRNKL1,base cell carcinoma
+DDX6,B-NHL
+FCRL4,B-NHL
+KDSR,B-NHL
+MUC1,B-NHL
+NFKB2,B-NHL
+BCL11A,B-CLL
+BTG1,B-CLL
+CHST11,B-CLL
+FSTL3,B-CLL
+LEF1,"B-ALL, T-ALL, eyelid sebaceous carcinoma, AML, lymphomas"
+CRLF2,"B-ALL, Downs associated ALL"
+P2RY8,"B-ALL, Down syndrome associated ALL"
+IKZF3,"B-ALL, CLL, breast cancer, colorectal cancer"
+BCL9,B-ALL
+ELN,B-ALL
+PML,"APL, ALL"
+NUMA1,APL
+RARA,APL
+TRIM24,APL
+ZBTB16,APL
+PLCG1,angiosarcoma
+PTPRB,angiosarcoma
+QKI,"angiocentric glioma, colorectal cancer"
+CDH11,aneurysmal bone cyst
+CNBP,aneurysmal bone cyst
+OMD,aneurysmal bone cyst
+THRAP3,aneurysmal bone cyst
+USP6,aneurysmal bone cyst
+STRN,"anaplastic thyroid, papillary thyroid, lung"
+DDX10,AML*
+GAS7,AML*
+HOXA9,AML*
+HOXD13,AML*
+TOP1,AML*
+NUP214,"AML, T-ALL"
+RUNX1,"AML, pre B-ALL, T-ALL"
+CTNNA1,"AML, MDS, cutaneous melanoma"
+ARHGAP26,"AML, MDS"
+CEBPA,"AML, MDS"
+MN1,"AML, MDS"
+KAT6B,"AML, leiomyoma"
+CBL,"AML, JMML, MDS"
+BCORL1,"AML, HNSCC"
+RAD21,"AML, endometrium, colorectal, lung"
+PER1,"AML, CMML"
+MECOM,"AML, CML, MDS"
+RPL22,"AML, CML"
+NCOA2,"AML, chondrosarcoma, rhabdomyosarcoma"
+FLT3,"AML, ALL"
+KMT2A,"AML, ALL"
+ACSL6,"AML, AEL"
+GATA2,AML (CML blast transformation)
+ABI1,AML
+ABL2,AML
+ARHGEF12,AML
+ARNT,AML
+CBFA2T3,AML
+CBFB,AML
+CBLB,AML
+CDX2,AML
+CHIC2,AML
+CLP1,AML
+DEK,AML
+DNMT3A,AML
+ELF4,AML
+FNBP1,AML
+GMPS,AML
+HOXA13,AML
+HOXC11,AML
+HOXC13,AML
+HOXD11,AML
+KAT6A,AML
+KDM5A,AML
+KNL1,AML
+LASP1,AML
+MLF1,AML
+MNX1,AML
+MYH11,AML
+NSD1,AML
+NSD3,AML
+NUP98,AML
+PRRX1,AML
+PSIP1,AML
+RPN1,AML
+RUNX1T1,AML
+Sep-05,AML
+Sep-06,AML
+Sep-09,AML
+SMC1A,AML
+TET1,AML
+TRIP11,AML
+ASPSCR1,alveolar soft part sarcoma
+FOXO1,alveolar rhabdomyosarcoma
+NCOA1,alveolar rhabdomyosarcoma
+PAX3,alveolar rhabdomyosarcoma
+PAX7,alveolar rhabdomyosarcoma
+AFF3,"ALL, T-ALL"
+IL7R,"ALL, ETP ALL"
+IKZF1,"ALL, DLBCL"
+JAK2,"ALL, AML, MPN,  CML"
+CREBBP,"ALL, AML, DLBCL, B-NHL"
+AFF4,ALL
+CDK6,ALL
+EPS15,ALL
+FCGR2B,ALL
+FOXP1,ALL
+HLF,ALL
+JAK1,ALL
+MLLT11,ALL
+MLLT3,ALL
+NCKIPSD,ALL
+ZNF384,ALL
+ZNF521,ALL
+CLTC,"ALCL, renal"
+ALK,"ALCL, NSCLC, neuroblastoma, inflammatory myofibroblastic tumour, Spitzoid tumour"
+ATIC,ALCL
+CARS,ALCL
+CLTCL1,ALCL
+MSN,ALCL
+MYH9,ALCL
+RNF213,ALCL
+TPM4,ALCL
+FOXO4,"AL, soft tissue sarcoma"
+AFDN,AL
+AFF1,AL
+ELL,AL
+FOXO3,AL
+GPHN,AL
+MLLT1,AL
+MLLT10,AL
+MLLT6,AL
+SH3GL1,AL
+PRKCB,adult T-cell lymphoma-leukaemia
+CCR4,adult T-cell leukaemia/lymphoma
+CCR7,adult T-cell leukaemia/lymphoma
+ATP1A1,adrenal aldosterone producing adenoma
+ATP2B3,adrenal aldosterone producing adenoma
+CACNA1D,adrenal aldosterone producing adenoma
+KCNJ5,adrenal adenoma
+NFIB,"adenoid cystic carcinoma, lipoma"
+MYB,adenoid cystic carcinoma
+JAK3,"acute megakaryocytic leukaemia, ETP ALL"
+MRTFA,acute megakaryocytic leukaemia
+RBM15,acute megakaryocytic leukaemia
+SETBP1,"aCML, sAML, MDS/MPN-U, CMML, JMML"
+CSF3R,"aCML, CNL,  leukaemia lymphoma and MDS associated with severe congenital neutropenia, CMML, de novo AML, MDS"
+ETNK1,"aCML, CMML, SM-AHD, HES"
+MYD88,ABC-DLBCL
