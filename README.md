@@ -25,6 +25,14 @@ The arguments specification:
 11. **PAM**: The PAM sequence (for example, NGG).
 12. **Allow PAM edits**: Flag whether to allow PAM edits or not (true or false).
 
+# OBT Usage (Canine)
+1. Flatten gtf file using `flatten.R`
+2. Populate `guides_canine.txt` with protospacer sequences (including PAM)
+3. Run `run_canFam3.sh` to find all off-targets
+4. Run `score_pam.R` to add gap-aware CFD scores
+5. Run `annotate.R` to assign genomic region to them
+6. Run `annotate_gene_sets.py` to annotate genes and any association with cancer etc
+
 
 # Requirements:
 The code was tested with openjdk version "17.0.3"
