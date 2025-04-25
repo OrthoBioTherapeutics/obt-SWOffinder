@@ -1,0 +1,17 @@
+name: obt_swoff
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3.1
+  - r-dplyr=1.1.4
+  - r-stringr=1.5.1
+  - r-foreach=1.5.2
+  - r-doparallel=1.0.17
+  - r-genomicranges=1.52.1
+  - r-genomicfeatures=1.52.2
+  - python=3.11.7
+  - pandas=2.2.0
+  - numpy=1.26.2
+  - openpyxl=3.1.2
