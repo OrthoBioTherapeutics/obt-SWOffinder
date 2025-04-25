@@ -1,58 +1,86 @@
+args <- commandArgs(trailingOnly = TRUE)
+
+# Expected arguments
+gtf_path <- args[1]
+in_df <- args[2]
+guidename <- args[3]
+
+if (length(args) < 3) {
+  stop("Usage: Rscript annotate.R <gtf_path> <in_df> <guidename>")
+}
+
 library(foreach)
 library(doParallel)
 library(GenomicRanges)
+library(dplyr)
+library(GenomicFeatures)
 
-load("../../misc/gtf/canFam3_flattened_gtf.RData")
-data <- read.csv("/mnt/new_home/obt-guide-design/SWOffinder/out/4mm4w2b_AGAACCGCAGAGCTAAATGCNGG_processed.csv")
-out_name <- "OCC02S_annotated_offtargets.csv"
 
+data <- read.csv(in_df)
+out_name <- paste0(guidename, "gap_ot.csv")
+
+# Account for offset which occurs for some reason. This is to make it comparable with guide pipeline output.
+data <- data %>%
+  mutate(EndPosition = case_when(
+    Strand == "+" ~ EndPosition - 5,
+    Strand == "-" ~ EndPosition - 17
+  ))
+
+txdb <- makeTxDbFromGFF(gtf_path, format = "gtf")
+
+genes_gr <- unlist(genes(txdb, single.strand.genes.only=FALSE))
+exons_gr <- exons(txdb)
+introns_gr <- unlist(intronsByTranscript(txdb), use.names = FALSE)
 
 # Create a GRanges object from Chromosome and EndPosition columns
-gr <- GRanges(seqnames = Rle(data$Chromosome),
+gr_ot <- GRanges(seqnames = Rle(data$Chromosome),
               ranges = IRanges(start = data$EndPosition, end = data$EndPosition),
               mcols = data[ , !(colnames(data) %in% c("Chromosome", "EndPosition"))])
 
-# Initialize the 'region' and 'distance_to_gene' columns
-mcols(gr)$region <- NA
-mcols(gr)$distance_to_gene <- NA
-mcols(gr)$gene <- NA  # Initialize the 'gene' column with NA
-mcols(gr)$nearest_gene <- NA
+# Default annotations
+mcols(gr_ot)$region <- "intergenic"
+mcols(gr_ot)$distance_to_gene <- NA
+mcols(gr_ot)$gene <- NA
+mcols(gr_ot)$nearest_gene <- NA
 
-gene_ranges_gr <- gene_granges
-gene_ranges_gr$gene_id <- names(gene_ranges_gr)
+# Initialize columns
+gr_ot$region <- "intergenic"
+gr_ot$gene <- NA_character_
 
-overlaps <- findOverlaps(gr, gene_ranges_gr)
-overlapping_genes <- gene_ranges_gr$gene_id[subjectHits(overlaps)]
-mcols(gr)$gene[queryHits(overlaps)] <- overlapping_genes[seq_along(queryHits(overlaps))]
+# Mark exonic
+hits_exon <- findOverlaps(gr_ot, exons_gr)
+gr_ot$region[queryHits(hits_exon)] <- "exon"
 
-# Update rows with overlaps
-mcols(gr)$region[queryHits(overlaps)] <- "genic"
-mcols(gr)$gene[queryHits(overlaps)] <- gene_ranges_gr$gene_id[subjectHits(overlaps)]
+# Mark intronic (only for non-exonic regions)
+non_exonic_idx <- which(gr_ot$region != "exon")
+hits_intron <- findOverlaps(gr_ot[non_exonic_idx], introns_gr)
+gr_ot$region[non_exonic_idx[queryHits(hits_intron)]] <- "intron"
 
-# For rows with no overlaps, mark as intergenic and calculate distance to closest gene
-no_overlap <- setdiff(seq_along(gr), queryHits(overlaps))
-nearest_genes <- nearest(gr[no_overlap], gene_ranges_gr)
-mcols(gr)$region[no_overlap] <- "intergenic"
-valid_indices <- !is.na(nearest_genes)
-mcols(gr)$distance_to_gene[no_overlap[valid_indices]] <- 
-distance(gr[no_overlap[valid_indices]], gene_ranges_gr[nearest_genes[valid_indices]])
-mcols(gr)$nearest_gene[no_overlap[valid_indices]] <- 
-mcols(gene_ranges_gr)$gene_id[nearest_genes[valid_indices]]
+# Get gene_id by overlapping with gene annotations
+hits_gene <- findOverlaps(gr_ot, genes_gr)
+gr_ot$gene[queryHits(hits_gene)] <- names(genes_gr)[subjectHits(hits_gene)]
 
-for (i in queryHits(overlaps)) {
-  if (mcols(gr)$mcols.score[i] > 0.01) { 
-    gene_name <- mcols(gr)$gene[i]
-    print(gene_name)
-    if (!is.na(gene_name)) {
-      gene_exons <- merged_exons_list[[gene_name]]
-    if (length(findOverlaps(gr[i], gene_exons))!=0) {
-      mcols(gr)$region[i] <- "exon"
-    } else {
-      mcols(gr)$region[i] <- "intron"
-    }
-  }
-}
-}
+intergenic_idx <- which(gr_ot$region == "intergenic")
+gr_intergenic <- gr_ot[intergenic_idx]
+nearest_hits <- nearest(gr_intergenic, genes_gr)
+closest_gene_ids <- names(genes_gr)[nearest_hits]
 
+# Get intergenic ranges
+intergenic_idx <- which(gr_ot$region == "intergenic")
+gr_intergenic <- gr_ot[intergenic_idx]
 
-write.csv(as.data.frame(gr), out_name, row.names = FALSE)
+# Find nearest gene and compute distances
+nearest_hits <- nearest(gr_intergenic, genes_gr)
+closest_gene_ids <- names(genes_gr)[nearest_hits]
+distances <- rep(NA_integer_, length(gr_intergenic))
+
+# Compute distances only where nearest gene exists
+valid <- !is.na(nearest_hits)
+distances[valid] <- distance(gr_intergenic[valid], genes_gr[nearest_hits[valid]])
+
+# Add to original GRanges
+gr_ot$nearest_gene[intergenic_idx] <- closest_gene_ids
+gr_ot$distance_to_gene[intergenic_idx] <- distances
+
+write.csv(as.data.frame(gr_ot), paste0("../out/", out_name), row.names = FALSE)
+

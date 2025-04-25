@@ -3,10 +3,13 @@ library(stringr)
 library(parallel)
 
 complement <- c("A" = "T", "T" = "A", "G" = "C", "C" = "G", "-" = "-")
-# Process each file in parallel, excluding the gap-aware matrix file
-csv_files <- list("/mnt/new_home/obt-guide-design/SWOffinder/out/4mm4w2b_AGAACCGCAGAGCTAAATGCNGG",
-"/mnt/new_home/obt-guide-design/SWOffinder/out/4mm4w2b_TGAACTTCCAGGTCCCTGTGNGG")
 
+# Get command-line arguments (excluding the first default ones)
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) == 0) {
+  stop("No CSV files provided.")
+}
+csv_files <- args
 
 calculate_mismatch_score <- function(spacer, protospacer, scores) {
   # Calculate the PAM score (for the last two nucleotides of the protospacer)
@@ -55,7 +58,7 @@ calculate_mismatch_score <- function(spacer, protospacer, scores) {
 }
 
 process_file <- function(file, scores) {
-  swofftargets <- read.csv(paste0(file, ".csv"))
+  swofftargets <- read.csv(paste0(file))
   swofftargets <- swofftargets %>%
     rowwise() %>%
     mutate(score = calculate_mismatch_score(AlignedTarget, AlignedText, scores))
